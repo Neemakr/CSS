@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+            Pseudo Elements
+        </title>
+        <style>
+            p::first-line{
+                font-variant: small-caps;
+                color: hotpink;
+            }
+            p::first-letter{
+                color: rebeccapurple;
+                font-size: xx-large;
+            }
+            p::before{
+                content: url(Smiley.webp);
+                float: right;
+            }
+            ::selection{
+                background-color: goldenrod;
+                color: blueviolet;
+            }
+        </style>
+    </head>
+    <body>
+        <p>You can use the ::first-line pseudo-element to add a special effect to the first line of a text. 
+            Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, 
+            and more, and more.
+        </p>
+        <h1>
+            Select some text on this page
+        </h1>
+        <pre>
+            This is a paragraph
+        </pre>
+    </body>
+</html>

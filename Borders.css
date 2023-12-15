@@ -1,0 +1,15 @@
+p.dotted {
+    border-style: dotted;
+    border-width: 5px;
+    border-radius: 2px;
+}
+p.rounded {
+    border: 20px solid red; /* shorthand for border */  
+    border-radius: 8px;
+    margin: 100px 100px 150px 80px;
+    background-color: bisque;
+    padding: 50px;
+    height : 100px;
+    width: 500px;
+    outline: 5px solid black;
+}

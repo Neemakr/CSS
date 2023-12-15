@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            CSS Combinators - Child  Selector
+        </title>
+        <style>
+            div > p {
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <!-- Child Selectors - children of a specific element -->
+    <div>
+        <p>
+            Paragraph 3.
+        </p>
+        <section>
+            <!-- Not a child but a descendant -->
+            <p>
+                Paragraph 4.
+            </p>
+        </section>
+    </div>
+</html>
