@@ -13,3 +13,12 @@ p.rounded {
     width: 500px;
     outline: 5px solid black;
 }
+
+p.b{
+    border-style: solid;
+    border-color:red green blue yellow;
+    border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-right-style: inset;
+    border-left-style: ridge;
+}
